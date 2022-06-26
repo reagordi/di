@@ -1,6 +1,6 @@
 {
     "name": "reagordi/di",
-    "description": "PSR-11 compatible dependency injection container that is able to instantiate and configure classes resolving dependencies.\n",
+    "description": "PSR-11 compatible dependency injection container that is able to instantiate and configure classes resolving dependencies.",
     "version": "1.0.0",
     "type": "reagordi-contracts",
     "keywords": [
