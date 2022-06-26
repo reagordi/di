@@ -1,0 +1,47 @@
+{
+    "name": "reagordi/di",
+    "description": "PSR-11 compatible dependency injection container that is able to instantiate and configure classes resolving dependencies.\n",
+    "version": "1.0.0",
+    "type": "reagordi-contracts",
+    "keywords": [
+        "reagordi",
+        "component"
+    ],
+    "homepage": "https://reagordi.com/",
+    "readme": "README.md",
+    "time": "2022-06-26",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sergej Rufov",
+            "email": "support@reagordi.com",
+            "homepage": "https://reagordi.com/",
+            "role": "Founder and project lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/reagordi/version/issues?state=open",
+        "forum": "https://forum.reagordi.com/",
+        "wiki": "https://dev.reagordi.com/",
+        "source": "https://github.com/reagordi/version"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "reagordi/foundation": "^1.0",
+        "reagordi/exceptions": "^1.0",
+        "yiisoft/arrays": "^2.0",
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "roave/infection-static-analysis-plugin": "^1.16",
+        "spatie/phpunit-watcher": "^1.23",
+        "vimeo/psalm": "^4.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reagordi\\Component\\Di\\": "src"
+        }
+    }
+}
