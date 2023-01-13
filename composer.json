@@ -30,7 +30,7 @@
         "php": ">=8.0",
         "reagordi/foundation": "^1.0",
         "reagordi/exceptions": "^1.0",
-        "yiisoft/arrays": "^2.0",
+        "yiisoft/arrays": "^3.0",
         "psr/container": "^2.0"
     },
     "require-dev": {
